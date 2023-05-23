@@ -5,6 +5,6 @@ import {store} from "./store"
 
 
 
-export function Providers ({children}){
+export function Providers ({children}:any){
     return(<Provider store={store}>{children}</Provider>)
 }
